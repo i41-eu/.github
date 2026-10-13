@@ -2,8 +2,9 @@
 
 An open-source home platform: local first, privacy first.
 
-i41 runs your robots, devices and apps at home, on your own network. The online part is only a
-hub: it helps you set things up and reach them from away, and it cannot read what it carries.
+i41 runs your robots, devices and apps at home, on your own network. The online part helps you
+set things up and reach them from away, and runs some apps on its servers (Pet, Focus, Dev);
+where end-to-end encryption is on (Raw data), it is built so that it cannot read what it relays.
 The first device is a Stackchan, a small desk robot (M5Stack's StackChan) with our Embody Mode
 firmware: one robot, the body of many apps.
 
@@ -47,7 +48,11 @@ the manager.
 
 ## Status
 
-A proof of concept: written with AI agents and tested at home, not yet reviewed by humans.
+A proof of concept: written with AI agents and tested at home, not yet reviewed by humans. We aim
+for i41 to be secure, but there is a known backlog, and nothing has been independently reviewed
+or verified yet: [security](https://github.com/i41-eu/i41eu-arch/blob/main/docs/security.md).
+Please report problems privately
+([SECURITY.md](https://github.com/i41-eu/.github/blob/main/SECURITY.md)).
 
 Stack-chan was created by Shinya Ishikawa and the Stack-chan community
 ([github.com/stack-chan/stack-chan](https://github.com/stack-chan/stack-chan)); this project is
